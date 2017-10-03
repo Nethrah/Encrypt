@@ -47,6 +47,5 @@
     <preference name="PaginationMode" value="unpaginated" />
     <feature name="encryptPlugin">
         <param name="ios-package" value="encryptPlugin" />
-        
     </feature>
 </widget>

@@ -30,16 +30,14 @@ var app = {
         this.receivedEvent('deviceready');
         var encrypt;
         var key;
-        //alert(scrypt);
+        
         encrypt = window.plugins.encrypt;
-        /// sucess will alert the key in encrypted format(key here is Nethrah).
-        
-       console.log(encrypt(
-               function (res) { key = res; alert("The Default key is Nethrah,the encrypted format "+key);},
+        console.log(encrypt(
+               function (res) { key = res; alert("The DefaultKey is Nethrah,the encrypted value is"+key);},//sucess will alert the key.
                function (err) { key = null },
-               'Nethrah', 'salt', {N: 16384}
+               'Nethrah', 'xxxx', {N: 16384}
                      ));
-        
+        console.log("HI");
        
     },
 

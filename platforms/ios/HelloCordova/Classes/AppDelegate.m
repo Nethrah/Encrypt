@@ -21,9 +21,7 @@
 //  AppDelegate.m
 //  HelloCordova
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
-//
+// Created by Nethrah Ayyaswami
 
 #import "AppDelegate.h"
 #import "MainViewController.h"

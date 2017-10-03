@@ -1,3 +1,11 @@
+//  encryptPlugin.m
+//  HelloCordova
+//
+//  Created by Nethrah Ayyaswami
+//
+//
+
+
 #import <Foundation/Foundation.h>
 #import "encryptPlugin.h"
 #import "libscrypt.h"
@@ -48,7 +56,7 @@
     }
 
     if (success!=0) {
-        [self failWithMessage: @"Failure in scrypt" withError: nil];
+        [self failWithMessage: @"Failure in encrypt" withError: nil];
     }
 
 
