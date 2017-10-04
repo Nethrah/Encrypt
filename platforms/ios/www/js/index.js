@@ -33,7 +33,7 @@ var app = {
         
         encrypt = window.plugins.encrypt;
         console.log(encrypt(
-               function (res) { key = res; alert("The DefaultKey is Nethrah,the encrypted value is"+key);},//sucess will alert the key.
+               function (res) { key = res; alert("The DefaultKey is 'Nethrah',the encrypted value is"+key);},//sucess will alert the key.
                function (err) { key = null },
                'Nethrah', 'xxxx', {N: 16384}
                      ));
