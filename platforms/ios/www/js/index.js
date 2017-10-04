@@ -37,7 +37,7 @@ var app = {
                function (err) { key = null },
                'Nethrah', 'xxxx', {N: 16384}
                      ));
-        console.log("HI");
+        
        
     },
 
